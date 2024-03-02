@@ -5,7 +5,7 @@ from langchain.chains import LLMChain, SequentialChain
 
 
 
-API_KEY = OPENAI_API_KEY
+
 
 # Initialize OpenAI API
 llm = OpenAI(openai_api_key=API_KEY, temperature=0.9)
