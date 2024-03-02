@@ -1,8 +1,2 @@
-dotenv
-os
-langchain
-OpenAI
 streamlit
-PromptTemplate
-SequentialChain
-LLMChain
+langchain
