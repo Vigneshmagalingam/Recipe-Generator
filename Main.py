@@ -65,7 +65,7 @@ st.markdown(
 
 # Add GIF and title
 st.image("https://media1.tenor.com/m/aeDvGql7fPMAAAAC/patrick-eat.gif", use_column_width=True)
-st.markdown("<h1 style='color: #FF6347; text-align: center;'>🌟 Welcome to the Meal Planner! 🍽️</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='color: #FF6347; text-align: center;'>🌟 Welcome to the FlavorForge: Culinary Catalyst! 🍽️</h1>", unsafe_allow_html=True)
 st.markdown("<p style='text-align: center;'>Enter your ingredients or dish below to generate a recipe!</p>", unsafe_allow_html=True)
 
 # Input field and button
