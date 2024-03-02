@@ -32,7 +32,7 @@ To get started with FlavorForge, follow these steps:
 3. Run the Streamlit application:
 
     ```bash
-    streamlit run app.py
+    streamlit run Main.py
     ```
 
 4. Enter your ingredients or favorite dish in the input field and click "Generate" to receive your personalized recipe!
