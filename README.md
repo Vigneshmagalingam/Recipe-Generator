@@ -19,7 +19,7 @@ To get started with FlavorForge, follow these steps:
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/your-username/flavorforge.git
+    git clone https://github.com/Vigneshmagalingam/Recipe-Generator.git
     ```
 
 2. Install dependencies:
