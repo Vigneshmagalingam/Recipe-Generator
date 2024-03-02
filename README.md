@@ -25,7 +25,6 @@ To get started with FlavorForge, follow these steps:
 2. Install dependencies:
 
     ```bash
-    cd flavorforge
     pip install -r requirements.txt
     ```
 
