@@ -1,13 +1,11 @@
-from dotenv import load_dotenv
-import os
 import streamlit as st
 from langchain_openai import OpenAI
 from langchain.prompts import PromptTemplate
 from langchain.chains import LLMChain, SequentialChain
 
-# Load environment variables
-load_dotenv()
-API_KEY = os.environ['OPENAI_API_KEY']
+
+
+API_KEY = OPENAI_API_KEY
 
 # Initialize OpenAI API
 llm = OpenAI(openai_api_key=API_KEY, temperature=0.9)
