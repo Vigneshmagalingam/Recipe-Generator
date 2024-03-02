@@ -1,3 +1,4 @@
+import os
 import streamlit as st
 from langchain_openai import OpenAI
 from langchain.prompts import PromptTemplate
@@ -5,7 +6,7 @@ from langchain.chains import LLMChain, SequentialChain
 
 
 
-
+API_KEY = st.secrets['open_ai_key']
 
 # Initialize OpenAI API
 llm = OpenAI(openai_api_key=API_KEY, temperature=0.9)
